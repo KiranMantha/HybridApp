@@ -4,27 +4,27 @@ app
     self.Epics = [{
       'name': 'Ramayanam',
       'videoId': 'MjPq1kAP97U',
-      'playlistId': 'PL4AQ4_N-UzpTViQsN8cKw661duvF0f9Za'
+      'playlistId': 'PLxgCJRmbo5mesU0n7oP5iQnoo0MdMX2C0'
     },{
       'name': 'Bhagavatam',
       'videoId': '56dXajE54CI',
-      'playlistId': 'PLNFI_Hu0YTKqYqI0brQgtqajYCPdmV0BS'
+      'playlistId': 'PLxgCJRmbo5mfUwXLc-CviIoYyyBaZuCS6'
     }, {
       'name': 'Sundarakanda',
       'videoId': 'wMUV0Hp-f7g',
-      'playlistId': 'PL1B596AA4ECC246F1'
+      'playlistId': 'PLxgCJRmbo5mfN9Y_QBx6fNKfascmpaG1g'
     }, {
       'name': 'Mahabharatam - Sabha Parvam',
       'videoId': '0FX4QyQmVwk',
-      'playlistId': 'RD0FX4QyQmVwk'
+      'playlistId': 'PLxgCJRmbo5mdCGLwxGnjU0tS8CQaLMh6J'
     }, {
       'name': 'Mahabharatam - Aranya Parvam',
-      'videoId': 'BprcPcL0yjQ',
+      'videoId': 'sWBjm9JFMdc',
       'playlistId': 'PLxgCJRmbo5mcr0ENZ1hZZTfgqYKDmQplv'
     }, {
       'name': 'Mahabharatam - Virata Parvam',
       'videoId': '2gDHaqH8OHc',
-      'playlistId': 'PLEWXqMBENtlARVAb47DTzLHqDW2O6nBl0'
+      'playlistId': 'PLxgCJRmbo5meSg_t7eHldj6CosPC7hD24'
     }];
   })
   .controller('VideosPlaylistIndexController', ['VideosPlaylistIndex', '$ionicLoading', function (VideosPlaylistIndex, $ionicLoading) {
