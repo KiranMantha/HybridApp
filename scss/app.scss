@@ -1,0 +1,58 @@
+.item {
+  div {
+    color: $positive;
+    span {
+      float: right;
+    }
+  }
+}
+
+.bar-stable {
+  .back {
+    text-decoration: none;
+    line-height: 35px;
+    span {
+      padding-right: 5px;
+    }
+  }
+}
+
+.iframe-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 58%;
+  top: 33%;
+}
+
+.player-iframe,
+#player {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+  height: 240px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media (orientation: landscape) {
+  .iframe-container {
+    padding-bottom: 60%;
+    top: 0;
+    .player-iframe,
+    #player {
+      height: 100%;
+    }
+  }
+}
+
+@media (orientation: potrait) {
+  .player-iframe,
+  #player {
+    height: auto;
+  }
+}

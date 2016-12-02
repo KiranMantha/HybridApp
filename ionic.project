@@ -1,0 +1,10 @@
+{
+  "name": "chagantivideos",
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "/",
+      "proxyUrl": "http://com.ionicframework.chagantivideos.com/"
+    }
+  ]
+}

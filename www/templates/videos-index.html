@@ -1,0 +1,13 @@
+<ion-view title="playlistIndex">
+  <ion-header-bar class="bar-stable">
+    <h1 class="title">Chaganti Videos</h1>
+  </ion-header-bar>
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="item in VideosPlaylistIndexCtrl.VideosPlaylistIndex">
+        <!--<a ng-href="#/playlist/{{item['videoId']}}/{{item['playlistId']}}">{{item['name']}}<span class="ion-chevron-right"></span></a>-->
+        <div ng-click="VideosPlaylistIndexCtrl.openIAB(item['videoId'],item['playlistId'])">{{item['name']}}<span class="ion-chevron-right"></span></div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
