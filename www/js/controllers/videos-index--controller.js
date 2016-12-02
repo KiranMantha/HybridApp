@@ -27,7 +27,7 @@ app
       'playlistId': 'PLxgCJRmbo5meSg_t7eHldj6CosPC7hD24'
     }];
   })
-  .controller('VideosPlaylistIndexController', ['VideosPlaylistIndex', '$ionicLoading', function (VideosPlaylistIndex, $ionicLoading) {
+  .controller('VideosPlaylistIndexController', ['VideosPlaylistIndex', function (VideosPlaylistIndex) {
     var self = this;
     self.VideosPlaylistIndex = VideosPlaylistIndex.Epics;
     self.openIAB = function (videoId, playlistId) {
